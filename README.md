@@ -17,19 +17,19 @@ This project is a full-stack image uploader built with React (frontend) and Node
 
 ## 📦 Setup Instructions
 
-# 1. Clone the repository
+### 1. Clone the repository
 
 -git clone https://github.com/Vishal-Perla/s3-image-uploader.git
 -cd s3-image-uploader
 
-# 2. Frontend Setup
+### 2. Frontend Setup
 
 -cd s3-frontend
 -npm install
 -npm start
 The React app should open at http://localhost:3000.
 
-# 3. Backend Setup
+### 3. Backend Setup
 
 -cd ../s3-backend
 -npm install
@@ -45,7 +45,7 @@ node index.js
 Your backend will run on http://localhost:5000.
 
 
-✅ Security Notes
+## ✅ Security Notes
 
 The frontend never sees your AWS keys.
 
@@ -54,12 +54,12 @@ All upload requests go through your backend API.
 Secrets are stored in a .env file and excluded from Git via .gitignore.
 
 
-📸 Demo
+## 📸 Demo
 
 A user selects an image, previews it, and uploads it to S3. After uploading, a public URL is shown that links directly to the file stored in your AWS S3 bucket.
 
 
-✍️ Author
+## ✍️ Author
 Vishal Perla
 Computer Science Student
 GitHub: Vishal-Perla
