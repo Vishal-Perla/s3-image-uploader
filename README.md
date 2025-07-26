@@ -19,20 +19,20 @@ This project is a full-stack image uploader built with React (frontend) and Node
 
 ### 1. Clone the repository
 
--git clone https://github.com/Vishal-Perla/s3-image-uploader.git
--cd s3-image-uploader
+- git clone https://github.com/Vishal-Perla/s3-image-uploader.git
+- cd s3-image-uploader
 
 ### 2. Frontend Setup
 
--cd s3-frontend
--npm install
--npm start
+- cd s3-frontend
+- npm install
+- npm start
 The React app should open at http://localhost:3000.
 
 ### 3. Backend Setup
 
--cd ../s3-backend
--npm install
+- cd ../s3-backend
+- npm install
 
 Create a .env file in s3-backend/ with the following:
 AWS_ACCESS_KEY_ID=your_access_key
