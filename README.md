@@ -35,13 +35,13 @@ The React app should open at http://localhost:3000.
 - npm install
 
 Create a .env file in s3-backend/ with the following:
-AWS_ACCESS_KEY_ID=your_access_key
-AWS_SECRET_ACCESS_KEY=your_secret_key
-AWS_REGION=your_region
-S3_BUCKET_NAME=your_bucket_name
+- AWS_ACCESS_KEY_ID=your_access_key
+- AWS_SECRET_ACCESS_KEY=your_secret_key
+- AWS_REGION=your_region
+- S3_BUCKET_NAME=your_bucket_name
 
 Then run:
-node index.js
+-node index.js
 Your backend will run on http://localhost:5000.
 
 
