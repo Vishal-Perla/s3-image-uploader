@@ -67,6 +67,25 @@ Secrets are stored in a .env file and excluded from Git via .gitignore.
 A user selects an image, previews it, and uploads it to S3. After uploading, a public URL is shown that links directly to the file stored in your AWS S3 bucket.
 
 
+## 🧩 Practical Use Cases
+
+### 1. User Profile Uploads
+Used in web apps to let users upload profile pictures (e.g., social networks, e-commerce dashboards).
+
+### 2. Content Management Systems (CMS)
+Allows editors/admins to upload media (images, banners, thumbnails) for articles or pages.
+
+### 3. E-commerce Product Images
+Lets store owners upload product photos to an S3 bucket and store the image URLs in a database.
+
+### 4. Portfolio/Blog Platforms
+Creators can upload and host images for their blog posts or portfolio galleries securely.
+
+### 5. Mobile or Web App Backend
+Common pattern for any React frontend + Node backend + AWS S3 file hosting setup.
+
+
+
 ## ✍️ Author
 - Vishal Perla
 - Computer Science Student
