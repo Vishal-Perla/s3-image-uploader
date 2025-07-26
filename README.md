@@ -41,7 +41,7 @@ Create a .env file in s3-backend/ with the following:
 - S3_BUCKET_NAME=your_bucket_name
 
 Then run:
--node index.js
+- node index.js
 Your backend will run on http://localhost:5000.
 
 
@@ -60,6 +60,6 @@ A user selects an image, previews it, and uploads it to S3. After uploading, a p
 
 
 ## ✍️ Author
-Vishal Perla
-Computer Science Student
-GitHub: Vishal-Perla
+- Vishal Perla
+- Computer Science Student
+- GitHub: Vishal-Perla
