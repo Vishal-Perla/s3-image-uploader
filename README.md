@@ -88,5 +88,4 @@ Common pattern for any React frontend + Node backend + AWS S3 file hosting setup
 
 ## ✍️ Author
 - Vishal Perla
-- Computer Science Student
-- GitHub: Vishal-Perla
+- email : vishal260805@gmail.com
