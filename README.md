@@ -35,5 +35,22 @@ A full-stack project that demonstrates **secure file uploads** to AWS S3 with a 
 
 ---
 
-## 📂 Project Structure
+## 🧩 Practical Use Cases
 
+1. **User Profile Uploads**  
+   - Let users upload and store profile pictures in S3 without exposing AWS keys.  
+
+2. **E-commerce Product Images**  
+   - Store owners can upload product photos directly to S3.  
+   - Pricing tiers (Free, Pro, Team) can control storage limits and support levels.  
+
+3. **Dynamic Pricing Updates**  
+   - Plans can be updated in Supabase (e.g., add new tiers, change pricing).  
+   - Changes instantly appear in the React frontend without redeploying code.  
+
+4. **Subscriptions & Feature Gating**  
+   - Keep track of which plan a user is subscribed to.  
+   - Future extension: lock premium features (like larger storage) to Pro/Team users.  
+
+5. **Scalable Media Hosting**  
+   - By leveraging S3, uploads scale easily for blogs, portfolios, or SaaS platforms without bloating your server storage.
